@@ -15,7 +15,7 @@ namespace loop_value
 
             int sumOutput = 0;
 
-            for (int Loopvalue = 2; Loopvalue < 20; Loopvalue++)
+            for (int Loopvalue = 2; Loopvalue <= 20; Loopvalue++)
 
             {
                 Console.WriteLine(Loopvalue * userinputInt);
